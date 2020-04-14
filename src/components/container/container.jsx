@@ -22,7 +22,6 @@ export default class  Container extends Component{
         }
     }
     render(){
-        const card1 = "oi";
         return(
             <div className="container ">
                 <div className=" flex">

@@ -1,0 +1,33 @@
+.grid{
+	background-color: black;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5px;
+	max-width: 300px;
+	margin:5px 5px;
+}
+h2{
+	text-align: center;
+	margin: 15px auto;
+}
+p{
+	text-align: center;
+	margin: 0 auto 45px auto ;
+}
+.grid div{
+	font-size: 2em;
+    cursor: pointer;
+	text-align: center;
+	color:black;
+	background-color: white;
+	height: 50px;
+}
+strong{
+	font-size:2em;
+	vertical-align: -3px;
+}
+@media(min-width: 310px){
+	.grid{
+		margin:5px auto;
+	}
+}
