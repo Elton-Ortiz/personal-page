@@ -1,0 +1,23 @@
+
+/*for responsiveness the Card components*/
+.flex{
+    display: grid;
+    grid-template-columns:1fr;
+    width: 100%;
+}
+@media (min-width:346px) and (max-width:599px){
+    .flex{
+        grid-template-columns:1fr 1fr;
+    }
+    .flex div:nth-child(3){
+        display: inline-block;
+        grid-column-start: 1; 
+    grid-column-end: 4; 
+    }
+}
+@media (min-width:600px){
+    .flex{
+        grid-template-columns:1fr 1fr 1fr;
+    }
+}
+/*******************************************/

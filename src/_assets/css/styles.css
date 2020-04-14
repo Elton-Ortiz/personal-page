@@ -1,0 +1,65 @@
+
+/*Font-family for Ton Ortiz in the header*/
+@font-face {
+    font-family: 'Permanent Marker';
+    src: url('../../_assets/fonts/Permanent_Marker/PermanentMarker-Regular.ttf');
+}
+/****************************/
+
+
+/*cantainer defaul for page*/
+.container{
+    max-width: 750px;
+    height: auto;
+    margin:25px auto 25px auto;
+}
+/****************************/
+
+
+
+/*style for the page buttons*/
+.click{
+    text-decoration: none;
+}
+.click li:hover{
+    color: brown;
+}
+.click li:visited{
+   color:rgba(158, 152, 152, .5)
+
+}
+a{
+    outline: none;
+    text-decoration: none;
+}
+/****************************/
+
+
+
+
+/*style for the page menu "..." */
+.menu{
+    display:block;
+    position:sticky;
+    top: 0px;  
+    text-align: right; 
+    margin: 0 5px 0 0;  
+}
+.menu span {
+    background-color: black;
+    display:inline-block;
+    width: 8px;
+    height:8px;
+    margin:1px;
+    border-radius: 50px;
+}
+.anime{
+    display: inline-block;
+    width: auto; 
+}
+.anime:hover span{
+   width: 10px;
+   height: 10px;
+}
+/****************************/
+

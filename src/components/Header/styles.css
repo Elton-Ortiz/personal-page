@@ -1,0 +1,131 @@
+.Header{
+font-family: 'Permanent Marker';
+font-size: .8em;
+text-align: center;
+background-color: brown;
+position:sticky;
+top: 0;
+}
+#nav{
+    display: none;
+    margin: 0;
+    text-align: right;
+}
+li{
+    color:grey;
+    margin:25px;
+    display: inline;
+    list-style: none;
+}
+h1{
+    margin: 0;
+}
+#navlat{
+    display: block;
+    width: 150px;
+    height:100vh;
+    position: fixed;
+    top:0;
+    z-index: 99;
+    background-color: rgba(25, 25, 25,.9);
+    }
+    ul{
+        display:block;
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        margin: 0;
+    }
+    li{
+        text-align: left;
+        margin-left:15px ;
+        color:white;
+        display: block;
+    }
+
+@media (min-width: 280px) and (max-width:517px){
+    .Header{
+        font-size: 1em;
+        }
+    #navlat{
+        display: block;
+        width: 150px;
+        height:100vh;
+        position: fixed;
+        top:0;
+        z-index: 99;
+        background-color: rgba(25, 25, 25,.9);
+        }
+        ul{
+            display:block;
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            margin: 0;
+        }
+        li{
+            text-align: left;
+            margin-left:15px ;
+            color:white;
+            display: block;
+        }
+            
+}
+
+@media (min-width: 518px){
+    .nav{
+        display: block;
+    }
+    ul{
+       
+        margin:7px;
+    }
+    .Header{
+        font-size: 1.5em;
+        }
+        li{
+            margin:10px;
+            font-size: .9em;
+        }
+        .menu{
+           visibility: hidden;
+           display: none; 
+        }
+
+        #nav{
+            display: inline;
+            
+          
+           
+           
+           
+            background-color: rgba(25, 25, 25,.9);
+            }
+            ul{
+                
+                margin: 0;
+                padding: 0;
+            }
+            a{
+                margin: 0;
+            }
+            li{
+                display: inline;
+                text-align: left;
+                margin-left:15px ;
+                color:grey;
+              
+            }
+}
+
+
+
+
+
+#navMenu{
+    display: inline;
+    visibility: visible;
+    background-color: blue;
+}
