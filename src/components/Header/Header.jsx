@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import '../Header/styles.css'
 
 export default class  Header extends Component {
@@ -30,7 +31,7 @@ openMenu(){
            </nav>
             </div>
         <div className="Header">
-        <h1>- Ton Ortiz -</h1>
+        <Link to="/" className="link"><h1>- Ton Ortiz -</h1></Link>
         </div>
             <div className="menu">
                 <div className="anime kebab" onClick={()=>this.setState({open:!this.state.open})}>

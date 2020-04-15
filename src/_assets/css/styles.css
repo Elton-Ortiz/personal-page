@@ -63,3 +63,8 @@ a{
 }
 /****************************/
 
+/*style for Link of the react-router */
+.link{
+    color: black;
+}
+/****************************/

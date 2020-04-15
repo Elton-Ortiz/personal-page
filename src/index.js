@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Tictac from './pages/tictac/tictac'
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
@@ -10,7 +11,7 @@ ReactDOM.render(
   <BrowserRouter>
 		<Switch>
 			<Route path="/" exact={true} component={App} />
-			// <Route path="/tic-tac" component={App} />
+			<Route path="/Tictac" component={Tictac} />
 		</Switch>
   </BrowserRouter>
   	  

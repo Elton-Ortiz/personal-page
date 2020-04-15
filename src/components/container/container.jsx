@@ -1,6 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 import Card from '../../pages/root/card/card';
+import { Link } from 'react-router-dom'
 
 import './styles.css'
 
@@ -22,11 +23,10 @@ export default class  Container extends Component{
         }
     }
     render(){
-        const card1 = "oi";
         return(
             <div className="container ">
                 <div className=" flex">
-                    <div><Card  name={this.first.name} text={this.first.text}/> </div>
+                    <div><Link to="/Tictac" className="link" ><Card  name={this.first.name} text={this.first.text}/></Link> </div>       
                     <div><Card  name={this.second.name} text={this.second.text}/> </div>
                     <div><Card  name={this.third.name} text={this.third.text}/> </div>
                 </div>
